@@ -35,4 +35,4 @@ management:
 
 logging:
   level:
-    com.example.howtodoinjava: DEBUG
+    com.stackroute.movie-cruiser-app: DEBUG
