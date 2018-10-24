@@ -6,6 +6,9 @@ jdbc:
 spring:
   application:
     name: movie-service
+    h2:
+      console:
+        enabled: true
     jackson:
       serialization:
         write_dates_as_timestamps: false
@@ -29,6 +32,9 @@ eureka:         #tells about the Eureka server details and its refresh time
 management:
   security:
     enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc.
+movie-service:
+  controller:
+    exceptionmsg1: "Movie not found"
 logging:
   level:
     com.stackroute.movie-cruiser-app: DEBUG
