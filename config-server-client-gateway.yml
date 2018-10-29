@@ -13,3 +13,5 @@ logging:
 spring:
   application:
     name: zuul-gateway
+
+
